@@ -1,5 +1,6 @@
 *{
   color:white;
+  background-color: black;
 }
 html{
   background-color: black;
@@ -37,10 +38,6 @@ iframe{
   padding-top:30rem;
 }
 /*Contact*/
-*{
-  background-color: black;
-  color:white;
-}
 h3{
   font-family:fantasy;
 }
@@ -102,10 +99,9 @@ h1{
 }
 .Catalog{
   display: flex;
-  justify-content: center;
   align-items: baseline;
   flex-direction: row;
-justify-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .MainRowP{
