@@ -9,11 +9,13 @@ div{
   display:flex;
   justify-content: space-between;
 }
+nav{
+  font-size: 20px;
+}
 .group, .Homie, .Cousin{
   width:25%;
   height:25%;
 }
-
 .Photos{
   display: flex;
   flex-direction: row;
@@ -24,6 +26,9 @@ div{
 }
 .Cousin{
    transform: rotate(90deg);
+}
+h4{
+  font-size:30px;
 }
 iframe{
   box-sizing: border-box;
