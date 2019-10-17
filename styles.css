@@ -50,21 +50,29 @@ h1{
 
 /*Photo Page*/
 
-.group1, .Homie1, .roomates, .building, .Cousin1{
+
+.Catalog img{
   width:25%;
   height:25%;
+  margin: 2rem;
+}
+.Catalog .rotate{
+  padding-top: 4rem;
+}
+.rotate{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-top: 2rem;
 }
 
 
-
-.ff, .uncle, .od, .ex, .car{
-  width:25%;
-  height:25%;
-}
 
 .Catalog{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
