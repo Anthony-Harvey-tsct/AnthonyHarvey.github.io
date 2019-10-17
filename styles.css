@@ -1,17 +1,13 @@
-
-html {
-  box-sizing: border-box;
-}
-
 *, *::before, *::after {
   box-sizing:inherit;
 }
 
-
 *{
   color:white;
 }
+
 html{
+    box-sizing: border-box;
   background-color: black;
   background-image: url(https://files.slack.com/files-pri/TDH186BCK-FPKJCR9KQ/image.png);
   background-position: center;
