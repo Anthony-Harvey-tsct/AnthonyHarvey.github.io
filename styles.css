@@ -1,9 +1,13 @@
 *{
   color:white;
-  background-color: black;
 }
 html{
   background-color: black;
+  background-image: url(https://files.slack.com/files-pri/TDH186BCK-FPKJCR9KQ/image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
 }
 div{
   display:flex;
@@ -52,9 +56,7 @@ h1{
 }
 
 
-.Cousin1{
-   margin-top:20px;
- }
+
 .ff, .uncle, .od, .ex, .car{
   width:25%;
   height:25%;
